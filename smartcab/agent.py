@@ -52,6 +52,7 @@ class LearningAgent(Agent):
     def build_state(self):
         """ The build_state function is called when the agent requests data from the 
             environment. The next waypoint, the intersection inputs, and the deadline 
+
             are all features available to the agent. """
 
         # Collect data about the environment
@@ -70,21 +71,8 @@ class LearningAgent(Agent):
         # With the hand-engineered features, this learning process gets entirely negated.
         
         # Set 'state' as a tuple of relevant data for the agent   
-        
-        
-        if inputs['left'] == 'forward':
-            left = inputs['left']
-        else:
-            left = '!forward'
-            
-            
-        if (inputs['oncoming'] != 'right') and (inputs['oncoming'] != None):
-            oncoming = inputs['oncoming']
-        else:
-            oncoming = 'none'
-        
-        state = (waypoint, inputs['light'], left, oncoming)
-        
+                     
+        state = (waypoint, inputs['light'], inputs['left'], inputs['oncoming'])
         
         return state
 
@@ -203,7 +191,7 @@ def run():
     #   learning   - set to True to force the driving agent to use Q-learning
     #    * epsilon - continuous value for the exploration factor, default is 1
     #    * alpha   - continuous value for the learning rate, default is 0.5
-    agent = env.create_agent(LearningAgent, learning=True, alpha=0.925)
+    agent = env.create_agent(LearningAgent, learning=True, alpha=0.975)
     
     ##############
     # Follow the driving agent
