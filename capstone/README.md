@@ -41,16 +41,16 @@ This will open the Jupyter Notebook software and project file in your web browse
 The dataset used in this project is included as `HR_comma_sep.csv`. This dataset is provided by Kaggle and contains the following attributes:
 
 **Features**
-Satisfaction level	-	Level of employee satisfaction
-Last evaluation	-	Last performance evaluation review score
-Number of Projects	-	Number of projects completed while at work
-Avg. Monthly Hours	-	Average monthly hours at workplace
-Time Spend Company	-	Number of years spent in the company
-Work Accident	-	Has the employee had a workplace accident
-Promotion last 5 years	-	Was employee promoted in the last 5 years
-Sales 	-	Which department does employee work
-Salary 	-	Relative level of salary (low, med, high)
-Left	-	Did the employee churn or not
+Satisfaction level	-	Level of employee satisfaction  
+Last evaluation	-	Last performance evaluation review score  
+Number of Projects	-	Number of projects completed while at work  
+Avg. Monthly Hours	-	Average monthly hours at workplace  
+Time Spend Company	-	Number of years spent in the company  
+Work Accident	-	Has the employee had a workplace accident  
+Promotion last 5 years	-	Was employee promoted in the last 5 years  
+Sales 	-	Which department does employee work  
+Salary 	-	Relative level of salary (low, med, high)  
+Left	-	Did the employee churn or not  
 Southampton)
 
 **Target Variable**
