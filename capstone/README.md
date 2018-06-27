@@ -40,7 +40,7 @@ This will open the Jupyter Notebook software and project file in your web browse
 
 The dataset used in this project is included as `HR_comma_sep.csv`. This dataset is provided by Kaggle and contains the following attributes:
 
-**Features**
+**Features**  
 Satisfaction level	-	Level of employee satisfaction  
 Last evaluation	-	Last performance evaluation review score  
 Number of Projects	-	Number of projects completed while at work  
