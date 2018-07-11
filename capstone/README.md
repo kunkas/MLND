@@ -27,11 +27,11 @@ Template code is provided in the notebook `Capstone_Xavier.ipynb` notebook file.
 In a terminal or command window, navigate to the top-level project directory `capstone/` (that contains this README) and run one of the following commands:
 
 ```bash
-jupyter notebook Capstone_Xavier.ipynb.ipynb
+jupyter notebook Capstone_Xavier.ipynb
 ```
 or
 ```bash
-ipython notebook Capstone_Xavier.ipynb.ipynb
+ipython notebook Capstone_Xavier.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your web browser.
